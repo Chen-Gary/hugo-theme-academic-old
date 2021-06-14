@@ -1,11 +1,24 @@
 # Font style metadata
 name = "Classic"
 
+# modified by GaryC
 # Optional Google font URL
-google_fonts = "Lato:400,700|Merriweather|Roboto+Mono"
+google_fonts = ""
 
 # Font families
-heading_font = "Lato"
-body_font = "Merriweather"
-nav_font = "Lato"
-mono_font = "Roboto Mono"
+heading_font = ""
+body_font = ""
+nav_font = ""
+mono_font = ""
+
+
+
+# original settings are as follow:
+# # Optional Google font URL
+# google_fonts = "Lato:400,700|Merriweather|Roboto+Mono"
+
+# # Font families
+# heading_font = "Lato"
+# body_font = "Merriweather"
+# nav_font = "Lato"
+# mono_font = "Roboto Mono"

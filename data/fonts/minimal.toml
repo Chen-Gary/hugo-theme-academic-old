@@ -1,11 +1,25 @@
 # Font style metadata
 name = "Minimal"
 
+
+# modified by GaryC
 # Optional Google font URL
-google_fonts = "Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono"
+google_fonts = ""
 
 # Font families
-heading_font = "Montserrat"
-body_font = "Roboto"
-nav_font = "Roboto"
-mono_font = "Roboto Mono"
+heading_font = ""
+body_font = ""
+nav_font = ""
+mono_font = ""
+
+
+
+
+# # Optional Google font URL
+# google_fonts = "Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono"
+
+# # Font families
+# heading_font = "Montserrat"
+# body_font = "Roboto"
+# nav_font = "Roboto"
+# mono_font = "Roboto Mono"

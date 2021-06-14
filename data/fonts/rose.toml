@@ -1,11 +1,26 @@
 # Font style metadata
 name = "Rose"
 
+
+# modified by GaryC
 # Optional Google font URL
-google_fonts = "Cutive+Mono|Lora:400,700|Roboto:400,700"
+google_fonts = ""
 
 # Font families
-heading_font = "Lora"
-body_font = "Roboto"
-nav_font = "Lora"
-mono_font = "Cutive Mono"
+heading_font = ""
+body_font = ""
+nav_font = ""
+mono_font = ""
+
+
+
+
+# original settings are as follow:
+# # Optional Google font URL
+# google_fonts = "Cutive+Mono|Lora:400,700|Roboto:400,700"
+
+# # Font families
+# heading_font = "Lora"
+# body_font = "Roboto"
+# nav_font = "Lora"
+# mono_font = "Cutive Mono"
