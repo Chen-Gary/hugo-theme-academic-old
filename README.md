@@ -1,3 +1,83 @@
+# Additional README
+
+## （中文）关于这个repo你可能想知道这些问题
+
+### 1. 这个仓库是什么？
+
+Hugo academic theme 的一个fork，并且版本被退回至 commit id: 464a10d94741d532a3fdd77f3d6f206b739b40c5
+
+*选择退回这个版本是因为academic主题的开发者在这次commit前修复了一个感知明显的bug——导航栏明暗模式显示问题。并且目前 (2021.7.2) 这个主题新旧版在核心功能上没有太大差别，旧版也足够好用。
+
+### 2. 为什么要建立这个仓库？
+
+Hugo academic 主题的开发者对这个主题进行了一次比较大的改动。新版的Hugo academic 主题使用[Hugo Modules](https://gohugo.io/hugo-modules/)，这使得搭建博客变得“更简单”，但也使用户几乎无法进一步定制这个主题，之后会举一个例子。而这个版本使用“传统的”Hugo themes，用户自由度更高。
+
+### 3. 如何使用这个主题？
+
+正如上面说的：这个版本使用“传统的”Hugo themes。所以只需：
+
+* 下载/clone这个repo至博客的`themes/academic`目录（如果clone，记得把文件夹重命名为`academic`，并删除`.git`）
+* 复制`exampleSite`到博客根目录
+* `hugo server`预览效果
+* 修改&定制你的主页...
+
+请注意，你需要确保你使用的是**Hugo extended**，这个主题在“hugo extended v0.83.1”上实测可用，更旧一些的版本应该也会可用，但一定要使用Hugo **extended**。
+
+### 4. 如何定制这个主题，有文档吗？
+
+没有“直接的”文档。Hugo academic 主题的开发者把旧版的文档删除了，并且他们似乎在有意将自己与Hugo剥离（新版主题已经不附带指向Hugo官网的链接了）。
+
+旧版和新版在feature上并没有很大差别（核心feature基本一致），[新版的文档](https://wowchemy.com/docs/)有很大的参考价值。
+
+当然，我认为最快速的方法是直接阅读并修改exampleSite，里面提供的注释还算详细。
+
+你需要修改全部文件都在博客根目录的以下文件夹中：
+
+* config (很重要)
+* content
+* static
+
+### 5. `api-cn`分支是什么？
+
+原主题使用的部分api在中国大陆访问不稳定，导致网站访问速度很慢。我将这些造成“访问速度慢”的api替换成了国内的镜像。具体修改请看[这次commit](https://github.com/Chen-Gary/hugo-academic-theme-old/commit/48df1ff7a85a41ac3d29aabce1b7d0b6a5accd7e)。
+
+如果你认为访问你主页的人大多来自中国大陆，请考虑使用`api-cn`分支的主题。
+
+### 6. 这个主题适合那些人？
+
+[新版academic主题](https://wowchemy.com/)做的很棒，按官方教程几乎对代码/命令没有要求，强烈建议大家试试。如果你仍然想要使用旧版主题，你可能是这样的人：
+
+* 首先，当然你想要搭建一个个人学术主页
+* 有一定使用Hugo的基础（没有基础的话可以参考Hugo官网的教程；也可以看我写的教程，最近正在调整博客，链接后续补上）
+* 不介意折腾（因为没有文档）
+* 有自定义主题的需求
+* 补充上条，如果你想要修改主题中的部分api来达到提高地区访问速度的效果（参考/直接使用`api-cn`分支的主题）
+* 不急于使用最新的feature，不介意使用旧版
+
+### 7. 这个仓库会更新academic主题的最新feature吗？
+
+不会。。。前端也太难了吧😭
+
+
+
+## (English) You may want to know the following about this repo
+
+Well... If you do not read Chinese, the key point is this repo is the **old version** of Hugo academic theme. Like other "traditional" Hugo themes, clone this repo to `themes/` in the root folder of you blog, rename it to "academic", and delete `.git`. Then you are free to go.
+
+I have explained why you may need the old version of Hugo academic theme above in Chinese. If you really want to read the details, please try Google translate at this point. I will try to provide the English translation... Maybe... Or may not...
+
+(As you found this repo, you have got your own reasons why to choose the old version right? 😏)
+
+
+
+
+
+
+
+---
+
+(以下为原README / The original README as follow)
+
 <p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
 
 # [Academic](https://sourcethemes.com/academic/): the website builder for [Hugo](https://gohugo.io)
@@ -81,6 +161,7 @@ Prerequisites:
 Install:
 
 1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the *Academic Kickstart* repository to create a new website
+   
    * If you already created your site with **Netlify**, then skip this step
 2. Clone your fork to your computer with Git, replacing `sourcethemes` in the command below with your GitHub username: 
 
