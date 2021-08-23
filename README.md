@@ -4,7 +4,8 @@
 
 ### 1. 这个仓库是什么？
 
-Hugo academic theme 的一个fork，并且版本被退回至 commit id: 464a10d94741d532a3fdd77f3d6f206b739b40c5
+这个仓库是 Hugo academic theme 的一个fork，并且版本被退回至 commit id: 464a10d94741d532a3fdd77f3d6f206b739b40c5
+（由于这个仓库与[原仓库](https://github.com/wowchemy/wowchemy-hugo-modules)的发展方向完全不同，未来不会向原仓库提交PR，且为了更方便地添加说明文字，本仓库已由fork转换成standalone）
 
 *选择退回这个版本是因为academic主题的开发者在这次commit前修复了一个感知明显的bug——导航栏明暗模式显示问题。并且目前 (2021.7.2) 这个主题新旧版在核心功能上没有太大差别，旧版也足够好用。
 
@@ -39,7 +40,7 @@ Hugo academic 主题的开发者对这个主题进行了一次比较大的改动
 
 ### 5. `api-cn`分支是什么？
 
-原主题使用的部分api在中国大陆访问不稳定，导致网站访问速度很慢。我将这些造成“访问速度慢”的api替换成了国内的镜像。具体修改请看[这次commit](https://github.com/Chen-Gary/hugo-academic-theme-old/commit/48df1ff7a85a41ac3d29aabce1b7d0b6a5accd7e)。
+原主题使用的部分api在中国大陆访问不稳定，导致网站访问速度很慢。我将这些造成“访问速度慢”的api替换成了国内的镜像。具体修改请看[这个issue](https://github.com/Chen-Gary/hugo-theme-academic-old/issues/2)。
 
 如果你认为访问你主页的人大多来自中国大陆，请考虑使用`api-cn`分支的主题。
 
@@ -48,7 +49,7 @@ Hugo academic 主题的开发者对这个主题进行了一次比较大的改动
 [新版academic主题](https://wowchemy.com/)做的很棒，按官方教程几乎对代码/命令没有要求，强烈建议大家试试。如果你仍然想要使用旧版主题，你可能是这样的人：
 
 * 首先，当然你想要搭建一个个人学术主页
-* 有一定使用Hugo的基础（没有基础的话可以参考Hugo官网的教程；也可以看我写的教程，最近正在调整博客，链接后续补上）
+* 有一定使用Hugo的基础（没有基础的话可以参考Hugo官网的教程；也可以看我写的[教程](https://www.garychen.top/post/building-blog-using-hugo/)）
 * 不介意折腾（因为没有文档）
 * 有自定义主题的需求
 * 补充上条，如果你想要修改主题中的部分api来达到提高地区访问速度的效果（参考/直接使用`api-cn`分支的主题）
@@ -58,15 +59,23 @@ Hugo academic 主题的开发者对这个主题进行了一次比较大的改动
 
 不会。。。前端也太难了吧😭
 
+真的很感谢 Hugo academic theme 的团队，他们把这个主题开发得非常很棒。请访问他们[最新的网站](https://wowchemy.com/)，看看他们提供的服务是否符合你的需求。
 
 
 ## (English) You may want to know the following about this repo
 
 Well... If you do not read Chinese, the key point is this repo is the **old version** of Hugo academic theme. Like other "traditional" Hugo themes, clone this repo to `themes/` in the root folder of you blog, rename it to "academic", and delete `.git`. Then you are free to go.
 
+This repo is tested in **hugo extended v0.83.1**, and you may expected it works in some other Hugo versions. But make sure you are using **Hugo extended**.
+
 I have explained why you may need the old version of Hugo academic theme above in Chinese. If you really want to read the details, please try Google translate at this point. I will try to provide the English translation... Maybe... Or may not...
 
 (As you found this repo, you have got your own reasons why to choose the old version right? 😏)
+
+This repo is made **standalone** instead of a fork now. Since this repo parts ways with the [original one](https://github.com/wowchemy/wowchemy-hugo-modules) and will not open any PR to the original repo, making it standalone allow me to add additional specifications easier. 
+
+I really want to thank the great work by the team of Hugo academic theme. Please check their [new website](https://wowchemy.com/), and see if that suits your needs.
+
 
 
 
